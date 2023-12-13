@@ -1,2 +1,2 @@
 # opt-in
-Opt in for automated text/message.
+Opt in page for text/message reminders

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe to Notifications</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Subscribe to luisperez.site's automated text/call reminders and important notifications</h1>
+        <form id="optInForm" onsubmit="handleOptIn(event)">
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+            <input type="submit" value="Subscribe">
+            <p id="optInMessage" class="message"></p>
+        </form>
+
+        <h2>Opt out of all communications</h2>
+        <form id="optOutForm" onsubmit="handleOptOut(event)">
+            <input type="tel" id="optOutPhone" name="phone" placeholder="Enter your phone number">
+            <input type="submit" value="Opt Out">
+            <p id="optOutMessage" class="message"></p>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
